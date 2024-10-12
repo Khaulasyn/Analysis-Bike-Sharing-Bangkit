@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Data Gathering
-hour_data = pd.read_csv(r'../data/hour.csv')
-day_data = pd.read_csv(r'../data/day.csv')
+hour_data = pd.read_csv(r'./data/hour.csv')
+day_data = pd.read_csv(r'./data/day.csv')
 
 # Data Cleaning
 hour_data['dteday'] = pd.to_datetime(hour_data['dteday'])
